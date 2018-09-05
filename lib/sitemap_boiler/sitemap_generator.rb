@@ -13,15 +13,21 @@ module SitemapBoiler
       File.open(path, 'w') { |file| file.write(to_xml(localization)) }
     end
 
+    def location_url config, localization, page
+      URLComposer.compose(config[:base_url], localization['prefix'], page['path'])
+    end
+
     def to_xml localization
       xml_markup.urlset(config[:urlset_headers]) do |urlset|
         config[:pages].each do |page|
           urlset.url do |url|
-            composed_loc = URLComposer.compose(config[:base_url], localization['prefix'], page['path'])
-            url.loc composed_loc
+            url.loc location_url(config, localization, page)
             config[:localizations].each do |alternate|
-              composed_url = URLComposer.compose(config[:base_url], alternate['prefix'], page['path'])
-              url.tag!('xhtml:link', href: composed_url, hreflang: alternate['hreflang'], rel: :alternate)
+              url.tag!('xhtml:link', 
+                href: location_url(config, alternate, page),
+                hreflang: alternate['hreflang'],
+                rel: :alternate
+                )
             end
             if page['android_url']
               url.tag!('xhtml:link', href: page['android_url'], rel: :alternate)
