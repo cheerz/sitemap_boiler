@@ -1,5 +1,8 @@
 # SitemapBoiler
 
+[![Build Status](https://travis-ci.org/cheerz/sitemap_boiler.svg?branch=master)](https://travis-ci.org/cheerz/sitemap_boiler)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e8e9c3b8ed2629568cd6/maintainability)](https://codeclimate.com/github/cheerz/sitemap_boiler/maintainability)
+
 Welcome to SitemapBoiler! 
 
 This Gem is for websites with a limited number of URLs they want in their sitemap, to be registered in SEO results. 
