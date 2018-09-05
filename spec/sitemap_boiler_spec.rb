@@ -3,6 +3,7 @@ require 'fileutils'
 
 RSpec.describe SitemapBoiler do
   before(:all) do 
+    FileUtils.mkdir_p('./tmp')
     Dir.glob('./tmp/sitemap*').each do |filepath|
       FileUtils.rm(filepath)
     end
