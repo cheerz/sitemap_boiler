@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.testdomain.com</loc>
+    <xhtml:link href="https://www.testdomain.com" hreflang="x-default" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/fr" hreflang="fr-FR" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/ch-fr" hreflang="fr-CH" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/uk" hreflang="en-GB" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/us" hreflang="en-US" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/en" hreflang="en" rel="alternate"/>
+    <xhtml:link href="android-app://package.app/app/home" rel="alternate"/>
+  </url>
+  <url>
+    <loc>https://www.testdomain.com/categories/cute-giraffe</loc>
+    <xhtml:link href="https://www.testdomain.com/categories/cute-giraffe" hreflang="x-default" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/fr/categories/cute-giraffe" hreflang="fr-FR" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/ch-fr/categories/cute-giraffe" hreflang="fr-CH" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/uk/categories/cute-giraffe" hreflang="en-GB" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/us/categories/cute-giraffe" hreflang="en-US" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/en/categories/cute-giraffe" hreflang="en" rel="alternate"/>
+  </url>
+  <url>
+    <loc>https://www.testdomain.com/all_categories</loc>
+    <xhtml:link href="https://www.testdomain.com/all_categories" hreflang="x-default" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/fr/all_categories" hreflang="fr-FR" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/ch-fr/all_categories" hreflang="fr-CH" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/uk/all_categories" hreflang="en-GB" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/us/all_categories" hreflang="en-US" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/en/all_categories" hreflang="en" rel="alternate"/>
+  </url>
+  <url>
+    <loc>https://www.testdomain.com/categories/freaky-monkey</loc>
+    <xhtml:link href="https://www.testdomain.com/categories/freaky-monkey" hreflang="x-default" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/fr/categories/freaky-monkey" hreflang="fr-FR" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/ch-fr/categories/freaky-monkey" hreflang="fr-CH" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/uk/categories/freaky-monkey" hreflang="en-GB" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/us/categories/freaky-monkey" hreflang="en-US" rel="alternate"/>
+    <xhtml:link href="https://www.testdomain.com/en/categories/freaky-monkey" hreflang="en" rel="alternate"/>
+    <xhtml:link href="android-app://package.app/app/freaky-monkey" rel="alternate"/>
+  </url>
+</urlset>

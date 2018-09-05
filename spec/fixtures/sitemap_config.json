@@ -1,0 +1,17 @@
+{
+  "base_url": "https://www.testdomain.com",
+  "pages": [
+    {"path": "", "android_url": "android-app://package.app/app/home"},
+    {"path": "categories/cute-giraffe"},
+    {"path": "all_categories"},
+    {"path": "categories/freaky-monkey", "android_url": "android-app://package.app/app/freaky-monkey"}
+     ],
+  "localizations": [
+    {"prefix": "", "hreflang": "x-default"},
+    {"prefix": "fr", "hreflang": "fr-FR"},
+    {"prefix": "ch-fr", "hreflang": "fr-CH"},
+    {"prefix": "uk", "hreflang": "en-GB"},
+    {"prefix": "us", "hreflang": "en-US"},
+    {"prefix": "en", "hreflang": "en"}
+  ]
+}
