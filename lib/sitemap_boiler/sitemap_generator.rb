@@ -17,12 +17,18 @@ module SitemapBoiler
       URLComposer.compose(config[:base_url], localization['prefix'], page['path'])
     end
 
+    def localizations_for page
+      url_localizations = config[:localizations].reject do |l| 
+        page['except'] && page['except'].member?(l['prefix'])
+      end
+    end
+
     def to_xml localization
       xml_markup.urlset(config[:urlset_headers]) do |urlset|
         config[:pages].each do |page|
           urlset.url do |url|
             url.loc location_url(config, localization, page)
-            config[:localizations].each do |alternate|
+            localizations_for(page).each do |alternate|
               url.tag!('xhtml:link', 
                 href: location_url(config, alternate, page),
                 hreflang: alternate['hreflang'],

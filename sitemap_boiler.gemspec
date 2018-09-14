@@ -6,8 +6,7 @@ require 'sitemap_boiler/version'
 Gem::Specification.new do |spec|
   spec.name          = "sitemap_boiler"
   spec.version       = SitemapBoiler::VERSION
-  spec.authors       = ["theocarrive"]
-  spec.email         = ["theo.carrive@gmail.com"]
+  spec.authors       = ["Théo CARRIVE"]
 
   spec.summary       = %q{Generate multiple languages sitemap from one config file}
   spec.homepage      = "https://github.com/cheerz/sitemap_boiler"
